@@ -10,13 +10,27 @@
 
 1. What is React JS and what problems does it try and solve?
 
+  React JS tries to solve aims to make developing an app more powerful and more efficient at the same time. By using the virtual DOM React
+  can update a page without having to reload. An example would be when we worked on the Hogwarts Students Cards we updated the data by adding 
+  more information for potential students without reloading the page. React is live and Reactive!
+
 1. What does it mean to _think_ in react?
+
+  By thinking in React we can build UI that may seem super complex but starts from a minified plan. We start with a mockup to how we want the 
+  UI to look and function, how many components we'll need, what data needs to be created by State then passed by props. We also direct how the user will use the UI. Now I know I made it sound very easy considering I haven't even finished my last two projects but React is far from easy.
 
 1. Briefly describe some of the differences between a Class/Stateful component and a Functional/Presentational component.
 
+  The simplest one is the syntax is different. A functional component is plain javascript. A class component allows us to extend from the React component. With Class components we also get to use setState and let's us do more in React.
+
 1. Describe state.
+  
+  I have to take this from Ryan Hamblin. State is to React like the heart is to humans. The way blood flows through the body is much like State in the way it passes data to components.
+
 
 1. Describe props.
+
+  Props is the data it recieves from State which is passed around to the components to display information to the user.
 
 ## Project
 
